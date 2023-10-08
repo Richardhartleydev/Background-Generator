@@ -1,5 +1,6 @@
 # Background Gradient Generator
 
+Live site : https://background-generator-rosy.vercel.app/
 # Desktop
 ![Screenshot (2782)](https://github.com/Richardhartleydev/Background-Generator/assets/143696125/4869328a-4ab2-4513-b968-7440a1c89601)
 
