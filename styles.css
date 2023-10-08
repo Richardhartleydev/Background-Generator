@@ -1,0 +1,68 @@
+body {
+  font: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+  background: linear-gradient(to right, #39b6d5, #6b6b5b);
+}
+
+.wrapper {
+  height: 100vh;
+}
+
+h1 {
+  font: 600 3.5em;
+  letter-spacing: 0.5em;
+  width: 100%;
+}
+
+h3 {
+  font: 900 1em;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+input {
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button {
+  background: linear-gradient(to bottom, #59594c 5%, #6b6b5b 100%);
+  background-color: #6b6b5b;
+  box-shadow: 0px 10px 14px -7px #6b6b5b;
+  font: 900 1em "Raleway", sans-serif;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 10px 25px;
+  margin-top: 10px;
+  letter-spacing: 0.01em;
+  text-shadow: 0px 1px 0px #3d768a;
+  border: none;
+}
+button:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #39b6d5;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 12px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font: 600 0.8em;
+}
+
+@media (max-width: 720px) {
+  body {
+    scale: 90%;
+  }
+  h1 {
+    font-size: 1.6em;
+  }
+}
